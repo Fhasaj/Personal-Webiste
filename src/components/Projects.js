@@ -9,7 +9,7 @@ const Projects = () => {
     {
       img: devlog,
       title: "devlog",
-      desc: " A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS ",
+      desc: " Testing Loser this is how much I can write on it. Without it leaking over  ",
       live: "https://devlogg.onrender.com/",
       code: "https://github.com/Coderamrin/devlog",
     },
@@ -85,5 +85,4 @@ const Projects = () => {
     </section>
   );
 };
-
 export default Projects;
