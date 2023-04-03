@@ -10,7 +10,7 @@ const Footer = () =>{
         
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
         <div className="relative mx-auto">
-                    <a
+                   <br></br> <a
                     href="https://twitter.com/CoderAmrin"
                     className="pr-4 inline-block text-accent hover:text-white"
                     >

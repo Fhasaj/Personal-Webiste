@@ -1,38 +1,25 @@
 import React from "react";
-import cssProjects from "../assets/cssprojects.png";
-import devlog from "../assets/devlog.png";
-import getInspirred from "../assets/get-inspirred.png";
-import uilogs from "../assets/uilogs.png";
+import oxon from "../assets/oxon.png";
+import bullingdon from "../assets/Bullingdon.png";
+import lightsout from "../assets/Lights Out.png";
 
 const Projects = () => {
   const projects = [
     {
-      img: devlog,
-      title: "devlog",
-      desc: " Testing Loser this is how much I can write on it. Without it leaking over  ",
-      live: "https://devlogg.onrender.com/",
-      code: "https://github.com/Coderamrin/devlog",
+      img: bullingdon,
+      title: "The Bullingdon",
+      desc: " This is a website for a local bar and night club in oxford. It is a static website built with HTML, CSS and JavaScript",
+    },
+
+    {
+      img: oxon,
+      title: "OxonBuilders",
+      desc: "Both main website as well as a custom CMS for the client. Built with HTML CSS and JS for the website and React, Node, Express and MongoDB for the CRM",
     },
     {
-      img: uilogs,
-      title: "uilogs",
-      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-      live: "https://uilogs.xyz/",
-      code: "https://github.com/Coderamrin/html-templates",
-    },
-    {
-      img: cssProjects,
-      title: "css projects",
-      desc: "Frontend Mentor challange directory, solved with vanilla CSS",
-      live: "https://build-10-css-projects.netlify.app/",
-      code: "https://github.com/Coderamrin/build-10-css-projects",
-    },
-    {
-      img: getInspirred,
-      title: "get Inspirred",
-      desc: "Quote search app. Used Quotable API for the quotes and React, Redux on the frontend",
-      live: "https://get-inspirred.netlify.app/",
-      code: "https://github.com/Coderamrin/get-inspired",
+      img: lightsout,
+      title: "Lights Out F1",
+      desc: "A single page fully responsive website built with HTML, CSS and JavaScript, that shows the current calender and the drivers standings for the current F1 season",
     },
   ];
 
@@ -60,22 +47,11 @@ const Projects = () => {
               <img src={project.img} alt={project.title} />
               <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
                 <p className="py-5 text-center font-bold px-2 text-white">
-                  {project.desc}
+                <h3>{project.title}</h3><br></br>
+                {project.desc}
                 </p>
 
                 <div className="mx-auto">
-                  <a
-                    href={project.live}
-                    className="px-5 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold"
-                  >
-                    Live
-                  </a>
-                  <a
-                    href={project.code}
-                    className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold"
-                  >
-                    Code
-                  </a>
                 </div>
               </div>
             </div>

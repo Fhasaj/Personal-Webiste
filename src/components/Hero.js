@@ -17,28 +17,21 @@ const Hero = () => {
                     </p>
                     <div className="flex py-5">
                     <a
-                    href="https://twitter.com/CoderAmrin"
+                    href="https://github.com/Fhasaj"
                     className="pr-4 inline-block text-accent hover:text-white"
                     >
                     {" "}
                     <AiOutlineGithub size={40} />{" "}
                     </a>
                     <a
-                    href="https://www.youtube.com/@coderamrin"
-                    className="pr-4 inline-block text-accent hover:text-white"
-                    >
-                    {" "}
-                    <AiOutlineTwitter size={40} />{" "}
-                    </a>
-                    <a
-                    href="https://www.facebook.com/CoderAmrin/"
+                    href="https://www.upwork.com/freelancers/fatlumh"
                     className="pr-4 inline-block text-accent hover:text-white"
                     >
                     {" "}
                     <SiUpwork size={40} />{" "}
                     </a>
                     <a
-                    href="https://www.facebook.com/CoderAmrin/"
+                    href="https://www.fiverr.com/fatlumhasaj?up_rollout=true"
                     className="pr-4 inline-block text-accent hover:text-white"
                     >
                     {" "}

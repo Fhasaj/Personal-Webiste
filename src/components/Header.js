@@ -21,15 +21,7 @@ const Header = () => {
                         <a href="/#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="/#blog">Blog</a>
-                    </li>
-                    <li>
                         <a href="/#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#resume -link" target="_blank" without rel="noreferrer">
-                        Resume
-                        </a>
                     </li>
                 </ul>
             </nav>
@@ -45,13 +37,7 @@ const Header = () => {
                     <a href="/#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="/#blog">Blog</a>
-                </li>
-                <li>
                     <a href="/#contact">Contact</a>
-                </li>
-                <li>
-                    <a href="/#resume">Resume</a>
                 </li>
                 </ul>
             </nav>
