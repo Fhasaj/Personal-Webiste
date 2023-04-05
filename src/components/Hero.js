@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroImg from "../assets/hero-img.png";
 
-import { AiOutlineTwitter, AiOutlineGithub, } from "react-icons/ai";
+import { AiOutlineGithub, } from "react-icons/ai";
 import { SiUpwork, SiFiverr } from "react-icons/si";
 
 const Hero = () => {

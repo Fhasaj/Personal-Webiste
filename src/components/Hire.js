@@ -17,7 +17,7 @@ const hire = () => {
     ];
 
     return (
-        <section className="bg-primary text-white px-5 py-32" id="blog">
+        <section className="bg-primary text-white px-5 py-32" id="hire">
             <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
                 <div className="about-info mb-5">
                     <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[190px] border-indigo-600 pb-2">

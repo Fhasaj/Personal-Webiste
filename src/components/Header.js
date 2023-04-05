@@ -21,6 +21,9 @@ const Header = () => {
                         <a href="/#projects">Projects</a>
                     </li>
                     <li>
+                        <a href="/#hire">Contract Me</a>
+                    </li>
+                    <li>
                         <a href="/#contact">Contact</a>
                     </li>
                 </ul>
@@ -36,6 +39,9 @@ const Header = () => {
                 <li>
                     <a href="/#projects">Projects</a>
                 </li>
+                <li>
+                        <a href="/#hire">Contract Me</a>
+                    </li>
                 <li>
                     <a href="/#contact">Contact</a>
                 </li>

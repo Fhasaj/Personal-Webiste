@@ -6,7 +6,7 @@ const Footer = () =>{
     return(
         <footer>
             <div className="py-4 text-center bg-primary text-white">
-            &copy; 2023 Fatlum Hasaj all right reserved
+            &copy; 2023 Fhasaj.co.uk all right reserved
         
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
         <div className="relative mx-auto">
