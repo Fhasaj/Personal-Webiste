@@ -10,7 +10,7 @@ const Hero = () => {
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="hero-info pb-5 md:pb-0">
                     <h1 className="text-4xl lg:text-6xl">
-                        Hi, <br/> I am <span className="text-accent">F</span>atlum<br/> a softwear developer!
+                        Hi, I am <span className="text-accent">Fatlum</span><br/> a Software developer!
                     </h1>
                     <p className="py-5">
                         I am proficient in MERN, HTML5 + CSS, C++, C# and Python

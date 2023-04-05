@@ -17,9 +17,8 @@ const About = () => {
             I am proficient in a number of programming languages which include MERN, HTML5 + CSS, C++, C#, Python MYSQL and MongoDB.
           </p>
           <p>
-            I have been coding since i was around 14 years old. I have been working on a number of projects and have been able to learn a lot of new things. I love a challenge and i am always looking to learn new things. I am a very hard worker and i am always looking to improve myself.
-
-            have a look at some of the projects i have been working on or check out my github to see some more. 
+          I have been actively engaged in coding since the age of 14, gaining substantial experience working on diverse projects and augmenting my skill set in the process. Driven by a passion for tackling complex challenges and expanding my knowledge base, I am dedicated to continuous self-improvement and take great pride in my strong work ethic. I would be pleased to share examples of my recent projects or invite you to review my contributions on GitHub.
+ 
           </p>
                 </div>                    
                 <div className="about-img">
