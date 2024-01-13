@@ -6,24 +6,24 @@ const hire = () => {
     const post = [
         {
             img: Fiver,
-            title: "Hire me on my Fiver Gig",
-            url: "https://www.fiverr.com/fatlumhasaj/creat-a-nodejs-react-or-angluar-website",
+            title: "Create a wordpress website",
+            url: "https://www.fiverr.com/fatlumhasaj/develop-a-professional-wordpress-website-and-blog",
           },
           {
             img: upwork,
-            title: "Hire me on my Upwork Gig",
-            url: "https://www.upwork.com/services/product/development-it-a-modern-and-responsive-html-and-css-portfolio-website-1627626678874005504",
+            title: "Scalp pages from a website and save them to a folder or csv file",
+            url: "https://www.fiverr.com/fatlumhasaj/web-scraping-data-mining-data-scraping-data-extraction-data-collection",
         },
     ];
 
     return (
-        <section className="bg-primary text-white px-5 py-32" id="hire">
+        <section className="bg-secondery text-white px-5 py-32" id="hire">
             <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
                 <div className="about-info mb-5">
                     <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[190px] border-indigo-600 pb-2">
                         Hire me on
                     </h2>
-                    <p className="PB-5">Here are some other place you can reach out and hire me on.</p>
+                    <p className="PB-8">There are a number of ways in which you can hire me the best way is to contact me at <a href="mailto:info@fhasaj.co.uk" className="font-bold text-accent hover:text-white">info@fhasaj.co.uk</a > I will then get back to you as quickly as I can. The next way is by going on to my <a href="https://www.fiverr.com/fatlumhasaj?up_rollout=true" className="font-bold text-accent hover:text-white">Fiver</a> and buying a gig see below for my most popular. Finally you can click on my <a href="https://www.upwork.com/freelancers/fatlumh" className="font-bold text-accent hover:text-white">Upwork</a> profile and send me a message there. </p>
                 </div>
                 <div></div>
             </div>

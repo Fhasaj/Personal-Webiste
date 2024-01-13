@@ -6,33 +6,33 @@ const Header = () => {
     const handleToggle = () => setToggle(!toggle);
 
     return (
-        <header className="sticky top-0 z-50 flex justify-between px-5 py-2 bg-primary text-white w-full">
-            <a href="/" className="logo text-2xl font-bold text-accent">
-                FH Design
+        <header className="sticky top-0 z-50 flex justify-between px-8 py-8 bg-primary text-white w-full">
+            <a href="/" className="text-2xl font-mono font-bold text-accent hover:text-white">
+                FH Design's
             </a>
 
             {/* Desktop Nav */}
             < nav className="hidden md:block" >
-                <ul className="flex">
+                <ul className="flex font-semibold">
                     <li>
-                        <a href="/#about">About</a>
+                        <a href="/#about">About Me</a>
                     </li>
                     <li>
-                        <a href="/#projects">Projects</a>
+                        <a href="/#projects">My Projects</a>
                     </li>
                     <li>
-                        <a href="/#hire">Contract Me</a>
+                        <a href="/#hire">Hire Me</a>
                     </li>
                     <li>
-                        <a href="/#contact">Contact</a>
+                        <a href="/#contact" className="bg-accent rounded-md text-white hover:bg-white hover:text-accent">Contact Me</a>
                     </li>
                 </ul>
             </nav>
             {/* Mobile Nav */}
             <nav
-                className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}
+                className={!toggle ? "mobile-nav left-[-100%] text-lg" : "mobile-nav left-0 text-lg"}
             >
-                <ul className="flex flex-col">
+                <ul className="flex flex-col text-lg">
                 <li>
                     <a href="/#about">About</a>
                 </li>
@@ -48,7 +48,7 @@ const Header = () => {
                 </ul>
             </nav>
             {/* Toggle button */}
-            <button onClick={handleToggle} className="block md:hidden">
+            <button onClick={handleToggle} className="block md:hidden z-10">
                 {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
             </button>
 

@@ -10,10 +10,10 @@ const Hero = () => {
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="hero-info pb-5 md:pb-0">
                     <h1 className="text-4xl lg:text-6xl">
-                        Hi, I am <span className="text-accent">Fatlum</span><br/> a Software developer!
+                        Hi, I am <span className="text-accent">Fatlum</span><br/> your go-to Software Engineer extraordinaire!
                     </h1>
                     <p className="py-5">
-                        I am proficient in MERN, HTML5 + CSS, C++, C# and Python
+                    With a passion for innovation and a knack for turning ideas into reality, I specialise in a spectrum of cutting-edge technologies.
                     </p>
                     <div className="flex py-5">
                     <a
